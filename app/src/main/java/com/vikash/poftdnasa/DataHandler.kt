@@ -10,6 +10,7 @@ data class DataHandler(
     val url: String,
 )
 
-data class DataHandlerListClass(
-    val dataHandlerList: List<DataHandler>
-)
+// Directly use a List of DataHandler objects
+//data class DataHandlerListClass(
+//    val dataHandlerList: List<DataHandler>
+//)
